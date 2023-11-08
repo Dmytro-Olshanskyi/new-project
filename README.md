@@ -1,7 +1,7 @@
 mkdir new-project
 cd new project
 git init
-cat "init" > README.md
+echo "init" > README.md
 git add README.md
 git commit -m "init"
 git branch -M main
